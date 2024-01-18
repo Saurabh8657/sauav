@@ -1,8 +1,8 @@
 let destinations =[
     {
       "id": 1,
-      "imageURL": "https://example.com/destination1.jpg",
-      "city": "Sydney",
+      "imageURL": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/2514/singapore1.jpg?crop=156:227&downsize=156:227",
+      "city": "Singapore",
       "country": "Australia",
       "description": "Experience the breathtaking beauty of Sydney, with its iconic Opera House and stunning harbor views.",
       "price": 1400,
@@ -17,8 +17,8 @@ let destinations =[
     },
     {
       "id": 2,
-      "imageURL": "https://example.com/destination2.jpg",
-      "city": "Rome",
+      "imageURL": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/ZF.jpg?crop=134:207&downsize=134:207",
+      "city": "Goa",
       "country": "Italy",
       "description": "Immerse yourself in the rich history of Rome, exploring ancient ruins and indulging in delicious Italian cuisine.",
       "price": 1600,
@@ -33,9 +33,9 @@ let destinations =[
     },
     {
       "id": 3,
-      "imageURL": "https://example.com/destination3.jpg",
-      "city": "Cape Town",
-      "country": "South Africa",
+      "imageURL": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3067/I.jpg?crop=156:227&downsize=156:227",
+      "city": "Thiland",
+      "country": "Asia",
       "description": "Explore the stunning landscapes and vibrant culture of Cape Town, known for its Table Mountain and diverse wildlife.",
       "price": 1800,
       "offerPrice": 1599,
@@ -49,9 +49,9 @@ let destinations =[
     },
     {
       "id": 4,
-      "imageURL": "https://example.com/destination4.jpg",
-      "city": "Bangkok",
-      "country": "Thailand",
+      "imageURL": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1971/PetronasTwinTowersAndKLCCPark.jpg?crop=156:227&downsize=156:227",
+      "city": "Malaysia",
+      "country": "Malaysia",
       "description": "Experience the vibrant street life and cultural richness of Bangkok, from ancient temples to bustling markets.",
       "price": 1300,
       "offerPrice": 1099,
@@ -65,7 +65,7 @@ let destinations =[
     },
     {
       "id": 5,
-      "imageURL": "https://example.com/destination5.jpg",
+      "imageURL": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3147/majestic-mauritus-and-dubai.jpg?crop=156:227&downsize=156:227",
       "city": "Dubai",
       "country": "United Arab Emirates",
       "description": "Indulge in luxury in the modern metropolis of Dubai, home to stunning skyscrapers and desert adventures.",
@@ -82,7 +82,7 @@ let destinations =[
     {
       "id": 6,
       "imageURL": "https://example.com/destination6.jpg",
-      "city": "Vancouver",
+      "city": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1993/Grand%20Park.JPG?crop=156:227&downsize=156:227",
       "country": "Canada",
       "description": "Discover the natural beauty of Vancouver, surrounded by mountains and the Pacific Ocean.",
       "price": 1500,

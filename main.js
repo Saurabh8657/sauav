@@ -23,6 +23,10 @@ function displayDestinations(destinations) {
     destinations.forEach(destination => {
         const destinationItem = document.createElement('div');
         destinationItem.innerHTML = `<p>${destination.city}, ${destination.country}</p>`;
+
+        const image = document.createElement("img");
+        image.src = destination.imageURL ;
+        destinationItem.append(image);
         destinationList.appendChild(destinationItem);
     });
 }

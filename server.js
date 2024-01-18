@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/destinations', (req, res) => {
+  console.log('Fetching all destinations');
     res.json(destinations);
 });
 
