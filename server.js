@@ -13,6 +13,24 @@ app.get('/', (req, res) => {
 });
 
 app.get('/destinations', (req, res) => {
+    const page = parseInt(req.query.page) || 1; 
+    const pageSize = parseInt(req.query.pageSize) || 10;
+
+    const startIndex = (page - 1) * pageSize;
+    const endIndex = startIndex + pageSize;
+
+    const paginatedDestinations = destinations.slice(startIndex, endIndex);
+
+    res.json({
+        page,
+        pageSize,
+        totalItems: destinations.length,
+        totalPages: Math.ceil(destinations.length / pageSize),
+        destinations: paginatedDestinations
+    });
+});
+
+app.get('/destinations', (req, res) => {
   console.log('Fetching all destinations');
     res.json(destinations);
 });
