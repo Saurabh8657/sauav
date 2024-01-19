@@ -13,14 +13,13 @@ app.get('/', (req, res) => {
 });
 
 app.get('/destinations', (req, res) => {
-    const page = parseInt(req.query.page) || 1; 
-    const pageSize = parseInt(req.query.pageSize) || 10; 
+    const _page = parseInt(req.query._page) || 1; 
+    const _limit = parseInt(req.query._limit) || 10; 
 
-    const startIndex = (page - 1) * pageSize;
-    const endIndex = startIndex + pageSize;
+    const startIndex = (_page - 1) * _limit;
+    const endIndex = startIndex + _limit;
 
     const paginatedDestinations = destinations.slice(startIndex, endIndex);
-
     res.json(paginatedDestinations);
 });
 
